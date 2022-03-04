@@ -2,9 +2,10 @@
   background-color: #F8F8FA;
   width: 400px;
   height: 460px;
-  margin-top: 1%;
-  margin-bottom: 1%;
-  border-radius: 3%;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 15px;
   font-family: 'Montserrat Alternates', sans-serif;
   position: relative;
 }
@@ -56,6 +57,31 @@
 }
 
 .card .icon-red p {
+  font: normal normal bold 9px Raleway;
+}
+
+.card .icon-grey {
+  position: absolute;
+  left: 24px;
+  top: 20px;
+  height: 16px;
+  width: 110px;
+  background: #9DA4AF 0% 0%;
+  border: none;
+  border-radius: 30px;
+  color: #F8F8FA;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card .icon-grey p {
   font: normal normal bold 9px Raleway;
 }
 

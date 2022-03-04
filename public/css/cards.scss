@@ -2,14 +2,14 @@
   background-color: #F8F8FA;
   width: 400px;
   height: 460px;
-  margin-top: 1%;
-  margin-bottom: 1%;
-  
-  border-radius: 3%;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 15px;
   font-family: 'Montserrat Alternates', sans-serif;
   position: relative;
 
-  .icon-green{
+  .icon-green {
     position: absolute;
     left: 24px;
     top: 20px;
@@ -22,11 +22,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    p{
+
+    p {
       font: normal normal bold 9px Raleway;
     }
   }
-  .icon-red{
+
+  .icon-red {
     position: absolute;
     left: 24px;
     top: 45px;
@@ -39,9 +41,30 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    p{
+
+    p {
       font: normal normal bold 9px Raleway;
-    }    
+    }
+  }
+
+  .icon-grey {
+    position: absolute;
+    left: 24px;
+    top: 20px;
+    height: 16px;
+    width: 110px;
+    background: #9DA4AF 0% 0%;
+    border: none;
+    border-radius: 30px;
+    color: #F8F8FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p {
+      font: normal normal bold 9px Raleway;
+    }
+
   }
 
 
@@ -59,11 +82,11 @@
   }
 
   .text {
-    
+
     position: relative;
     left: 24px;
     top: -20px;
-    
+
     .title {
       color: #22252A;
       text-align: left;
@@ -71,7 +94,7 @@
       opacity: 1;
     }
 
-    .equip{
+    .equip {
       position: relative;
       top: -20px;
       color: #9DA4AF;
@@ -80,19 +103,19 @@
       font-weight: lighter;
     }
 
-    .value{
+    .value {
       position: absolute;
       bottom: 18px;
     }
 
-    .price{
+    .price {
       position: relative;
       left: 20px;
       bottom: 18px;
       color: #22252A;
     }
 
-    .mese{
+    .mese {
       position: absolute;
       bottom: 7px;
       left: 88px;
@@ -100,12 +123,12 @@
       color: #9DA4AF;
       font-size: 16px/19px;
       font-weight: lighter;
-      
+
     }
 
   }
 
-  .button{
+  .button {
     position: relative;
     bottom: 30px;
 
@@ -123,12 +146,6 @@
     }
 
   }
-  
+
 
 }
-
-
-
-
-
-
