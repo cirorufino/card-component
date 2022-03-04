@@ -59,11 +59,3 @@ app.listen(4000, () =>{
     console.log('Server is starting at port ', 4000);
 });
 
-/*
-https://xd.adobe.com/view/78c63ff8-c99b-4922-5a13-680de4dc2bff-0ef7/screen/0b628e21-3f1c-4400-8484-29bf13fff67c/
-
-Sgasgas2021!
-
-https://codepen.io/
-
-*/
