@@ -1,0 +1,134 @@
+.card {
+  background-color: #F8F8FA;
+  width: 400px;
+  height: 460px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  
+  border-radius: 3%;
+  font-family: 'Montserrat Alternates', sans-serif;
+  position: relative;
+
+  .icon-green{
+    position: absolute;
+    left: 24px;
+    top: 20px;
+    height: 16px;
+    width: 110px;
+    background: #00949C 0% 0%;
+    border: none;
+    border-radius: 30px;
+    color: #F8F8FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p{
+      font: normal normal bold 9px Raleway;
+    }
+  }
+  .icon-red{
+    position: absolute;
+    left: 24px;
+    top: 45px;
+    height: 16px;
+    width: 85px;
+    background: #F76262 0% 0%;
+    border: none;
+    border-radius: 30px;
+    color: #F8F8FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p{
+      font: normal normal bold 9px Raleway;
+    }    
+  }
+
+
+  .img {
+    margin-top: 20px;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .text {
+    
+    position: relative;
+    left: 24px;
+    top: -20px;
+    
+    .title {
+      color: #22252A;
+      text-align: left;
+      font: normal normal bold 24px/29px Montserrat Alternates;
+      opacity: 1;
+    }
+
+    .equip{
+      position: relative;
+      top: -20px;
+      color: #9DA4AF;
+      font-family: 'Raleway', sans-serif;
+      font-size: 14px;
+      font-weight: lighter;
+    }
+
+    .value{
+      position: absolute;
+      bottom: 18px;
+    }
+
+    .price{
+      position: relative;
+      left: 20px;
+      bottom: 18px;
+      color: #22252A;
+    }
+
+    .mese{
+      position: absolute;
+      bottom: 7px;
+      left: 88px;
+      font-family: 'Raleway', sans-serif;
+      color: #9DA4AF;
+      font-size: 16px/19px;
+      font-weight: lighter;
+      
+    }
+
+  }
+
+  .button{
+    position: relative;
+    bottom: 30px;
+
+    button {
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #00ADB5 0% 0% no-repeat padding-box;
+      color: #F8F8FA;
+      border: none;
+      border-radius: 8px;
+      width: 90%;
+      height: 40px;
+      font-family: 'Raleway', sans-serif;
+    }
+
+  }
+  
+
+}
+
+
+
+
+
+
