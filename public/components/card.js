@@ -22,12 +22,13 @@ template.innerHTML = `
     <div class=text>
         <h3 class="title"></h3>
         <p class="equip"></p>
-        <p class="value">€</p>
-        <h1 class="price"></h1>
-        <p class="mese">mese</p>
+        <div class="price-container">
+            <p class="value">€</p>
+            <h1 class="price"></h1>
+            <p class="mese">mese</p>
+        </div>
     </div>
-    <div class="button"> <button>SCOPRI I DETTAGLI</button> </div>
-    
+    <div class="button"> <button>SCOPRI I DETTAGLI</button> </div> 
 </div>
 `;
 

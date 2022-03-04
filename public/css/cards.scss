@@ -8,6 +8,7 @@
   border-radius: 15px;
   font-family: 'Montserrat Alternates', sans-serif;
   position: relative;
+  flex-direction: column;
 
   .icon-green {
     position: absolute;
@@ -67,7 +68,6 @@
 
   }
 
-
   .img {
     margin-top: 20px;
     width: 100%;
@@ -82,10 +82,8 @@
   }
 
   .text {
-
-    position: relative;
-    left: 24px;
-    top: -20px;
+    margin-left: 24px;
+    margin-top: -20px;
 
     .title {
       color: #22252A;
@@ -95,57 +93,58 @@
     }
 
     .equip {
-      position: relative;
-      top: -20px;
+      margin-top: -20px;
       color: #9DA4AF;
       font-family: 'Raleway', sans-serif;
       font-size: 14px;
       font-weight: lighter;
     }
 
-    .value {
-      position: absolute;
-      bottom: 18px;
+    .price-container {
+      width: 100%;
+      height: 60px;
+      display: flex;
+      flex-direction: row;
+
+      .value {
+        margin-top: 12px;
+
+      }
+
+      .price {
+
+        width: 60px;
+        margin-left: 5px;
+        margin-top: 10px;
+        color: #22252A;
+      }
+
+      .mese {
+        margin-top: 25px;
+        margin-left: 5px;
+        font-family: 'Raleway', sans-serif;
+        color: #9DA4AF;
+        font-size: 16px/19px;
+        font-weight: lighter;
+
+      }
+
     }
-
-    .price {
-      position: relative;
-      left: 20px;
-      bottom: 18px;
-      color: #22252A;
-    }
-
-    .mese {
-      position: absolute;
-      bottom: 7px;
-      left: 88px;
-      font-family: 'Raleway', sans-serif;
-      color: #9DA4AF;
-      font-size: 16px/19px;
-      font-weight: lighter;
-
-    }
-
   }
 
   .button {
-    position: relative;
-    bottom: 30px;
-
+    padding-top: 15px;
     button {
-      position: relative;
-      left: 50%;
+      margin-left: 50%;
       transform: translateX(-50%);
       background: #00ADB5 0% 0% no-repeat padding-box;
       color: #F8F8FA;
       border: none;
       border-radius: 8px;
-      width: 90%;
+      width: 360px;
       height: 40px;
       font-family: 'Raleway', sans-serif;
     }
-
   }
-
 
 }
